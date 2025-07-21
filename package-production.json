@@ -1,0 +1,25 @@
+{
+  "name": "discord-voice-bot-24-7",
+  "version": "1.0.0",
+  "description": "Discord bot with 24/7 voice channel presence and auto-reconnection",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "pm2": "pm2 start pm2.config.js",
+    "enhanced": "node start.js",
+    "install-deps": "npm install discord.js @discordjs/voice dotenv express"
+  },
+  "keywords": ["discord", "bot", "voice", "24/7", "persistent"],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.11.0"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0"
+  }
+}
